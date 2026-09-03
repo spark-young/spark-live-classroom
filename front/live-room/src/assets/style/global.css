@@ -1,0 +1,93 @@
+  .el-aside{
+    width: 2px;
+  }
+  .el-aside:hover{
+    width: 2px;
+  }
+  #nav {
+    /* line-height: 10vh !important; */
+    
+    width: 100%;
+    background-color: rgb(32, 34, 38);
+    color: wheat;
+  }
+  .el-loading-mask{
+    background: rgba(0,0,0,0.5);
+  }
+
+  .el-message-box{
+    border-radius: 15px;
+    background: rgba(0,0,0,0.75);
+    position: relative;
+    box-shadow:0px 0 10px #23BFF9
+  }
+  
+.el-message-box__container,.el-message-box__title{
+    color: white !important;
+  }
+.el-button{
+  border: none;
+}
+.el-button:hover{
+  box-shadow:0px 0 10px #FFFFFF
+}
+/* 下拉菜单统一样式 */
+.el-dropdown-menu{
+  border: none;
+  background-color: rgba(0,0,0,0.75) !important;
+  color: white !important;
+}
+.el-dropdown-menu__item{
+  color: white !important;
+  background-color: transparent !important;
+}
+.el-dropdown-menu__item:hover{
+  background-color: rgba(150, 150, 150, 0.35) !important;
+}
+.popper__arrow,.popper__arrow::after{
+  color: rgba(0,0,0,0.75) !important;
+}
+.el-dropdown-menu__item--divided:before{
+  background-color: transparent !important;
+}
+
+.el-icon-delete::before,.el-icon-edit::before,.el-icon-full-screen::before,.el-icon-back::before{
+  margin-left: -1vh;
+  color: white;
+}
+
+/* el-dialog统一样式 */
+.el-dialog{
+  border-radius: 15px;
+  width: 36vw !important;
+  box-shadow: -8px -8px 16px -10px #fff, 8px 8px 16px -10px #000 ;
+  z-index: 999 !important;
+}
+
+/* el-switch的背景色 */
+.el-switch__label--left,.el-switch__label--right{
+  color: white;
+}
+
+/* photo背景色 */
+.cpc1 {
+  background: #ff6666;
+}
+.cpc2 {
+  background: #ffcc33;
+}
+.cpc3 {
+  background: #cccc44;
+}
+.cpc4 {
+  background: #339933;
+}
+.cpc5 {
+  background: #99cccc;
+}
+.cpc6 {
+  background: #0099cc;
+}
+.cpc7 {
+  background: #333399;
+}
